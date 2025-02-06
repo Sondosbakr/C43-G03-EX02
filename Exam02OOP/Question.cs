@@ -16,7 +16,7 @@ namespace Exam02OOP
         public Answer[]? AnswerList { get; set; }    
         public Answer? CorrectAnswer { get; set; }   
 
-        public Question(string? header, string? body, int mark, Answer[]? answerList)
+        public abstract Question(string? header, string? body, int mark, Answer[]? answerList)
         {
             Header = header;
             Body = body;
