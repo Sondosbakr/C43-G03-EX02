@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exam02OOP
 {
-    internal class Question
+    internal abstract class Question
     {
 
         public string? Header { get; set; }
@@ -16,7 +16,7 @@ namespace Exam02OOP
         public Answer[]? AnswerList { get; set; }    
         public Answer? CorrectAnswer { get; set; }   
 
-        public abstract Question(string? header, string? body, int mark, Answer[]? answerList)
+        public Question(string? header, string? body, int mark, Answer[]? answerList)
         {
             Header = header;
             Body = body;
