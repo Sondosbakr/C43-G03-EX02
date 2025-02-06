@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Exam02OOP
+{
+    internal class Answer
+    {
+        public int AnswerId;
+        public string? AnswerText;
+
+        public Answer(int answerId, string answerText)
+        {
+            AnswerId = answerId;
+            AnswerText = answerText;
+        }
+    }
+}
