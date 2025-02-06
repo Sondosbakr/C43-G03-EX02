@@ -39,19 +39,20 @@ namespace Exam02OOP
                     Console.Write($"Please Enter Your Answer: ");
                     isParsed = int.TryParse(Console.ReadLine(), out userAnswer);
                 } while (!isParsed);
-
+                Console.WriteLine();
                 if(userAnswer == Questions[i]?.CorrectAnswer?.AnswerId)
                 {
                     score += Questions[i].Mark;
                 }
             }
+            Console.Clear();
             foreach (var item in questionResult)
             {
                 Console.WriteLine($"Question: {item.Key}");
                 Console.WriteLine($"Correct Answer {item.Value}");
                 Console.WriteLine("-------------------------------------");
             }
-
+            Console.WriteLine();
         }
     }
 }

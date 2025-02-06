@@ -17,7 +17,7 @@ namespace Exam02OOP
             Console.WriteLine($"{Header}: {Body}: (Mark {Mark})");
             foreach (var answer in AnswerList)
             { 
-                Console.Write($"{answer.AnswerId}-{answer.AnswerText}   ");
+                Console.WriteLine($"{answer.AnswerId}-{answer.AnswerText}   ");
             }
         }
     }

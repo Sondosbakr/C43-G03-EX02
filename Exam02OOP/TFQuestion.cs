@@ -20,6 +20,7 @@ namespace Exam02OOP
             {
                 Console.Write($"{answer.AnswerId}-{answer.AnswerText}   ");
             }
+            Console.WriteLine();
         }
     }
 }
