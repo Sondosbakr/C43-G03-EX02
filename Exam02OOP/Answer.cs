@@ -8,8 +8,8 @@ namespace Exam02OOP
 {
     internal class Answer
     {
-        public int AnswerId;
-        public string? AnswerText;
+        public int AnswerId { get; set; }
+        public string? AnswerText { get; set; }
 
         public Answer(int answerId, string answerText)
         {
