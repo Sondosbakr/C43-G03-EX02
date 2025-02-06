@@ -19,6 +19,6 @@ namespace Exam02OOP
             Questions = questions;
         }
 
-        public abstract ShowExam();
+        public abstract void ShowExam();
     }
 }
